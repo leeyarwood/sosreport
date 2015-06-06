@@ -17,7 +17,7 @@
 import os
 import re
 
-from sos.plugins import Plugin, RedHatPlugin, DebianPlugin, UbuntuPlugin
+from sos.plugins import OpenStackPlugin, RedHatPlugin, DebianPlugin, UbuntuPlugin
 
 # The Networking plugin includes most of what is needed from a snapshot
 # of the networking, so we only need to focus on the parts that are specific
